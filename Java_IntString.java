@@ -12,8 +12,7 @@ public class Java_IntString {
         System.out.println(a + 1); // 정수의 합으로 계산
 
         int b = Integer.valueOf(str); // 문자열 ->정수로 변환
-        System.out.println(b+1); // 정수의 합으로 계산
-
+        System.out.println(b + 1); // 정수의 합으로 계산 int b = Integer.valueOf(str); // 문자열 ->정수로 변환
     }
 
 }
