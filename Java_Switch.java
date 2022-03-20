@@ -1,6 +1,6 @@
 public class Java_Switch {
     public static void main(String[] args) {
-
+        // 입력된 연령대에 맞게 구역 추천
         int age = 19;
 
         // 사용자 입력 예외처리
