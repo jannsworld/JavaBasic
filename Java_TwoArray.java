@@ -30,7 +30,7 @@ public class Java_TwoArray {
 
         System.out.println();
 
-        // length : 배열의길이, length() : 문자열의 길이
+        // length VS length() = length : 배열의길이, length() : 문자열의 길이
         for(int i =0; i< names.length; i++){
             for(int j=0; j<names[i].length(); j++){
                 System.out.print(names[i].charAt(j));
