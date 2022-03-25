@@ -23,5 +23,5 @@ public class Java_MethodCall {
        int [] b = new int[3];
         sum2(b);
         System.out.println("main() 메서드 안에서 b 값 : " +b);
-    }
+}
 }
