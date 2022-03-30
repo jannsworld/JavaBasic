@@ -1,14 +1,14 @@
-class Person {
+class Person2 {
 
     // 속성 Attribute
     int age;
     String name;
 
     // 생성자 Constructor
-    Person() {
+    Person2() {
     }
 
-    Person(int age, String name) {
+    Person2(int age, String name) {
         this.age = age;
         this.name = name;
     }
@@ -23,10 +23,10 @@ public class Java_OOP_Exam {
     public static void main(String[] args) {
 
         //객체생성
-        Person p1 = new Person(20, "AAA");
+        Person2 p1 = new Person2(20, "AAA");
         p1.printPerson();
 
-        Person p2 = new Person(40, "BBB");
+        Person2 p2 = new Person2(40, "BBB");
         p2.printPerson();
 
     }
