@@ -1,5 +1,8 @@
 abstract class Animal {
     abstract void cry();
+    void eat(){
+        System.out.println("먹다~냠냠!");
+    }
 }
 
 class Dog extends Animal {
