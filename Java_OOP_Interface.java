@@ -29,8 +29,13 @@ class Peoplee {
 }
 
 interface Allowance {
-    // Abstract Method
-    abstract void in(int price, String name);
+    // Field
+    // 변수는 안되나 상수는 가능하므로 public static final 붙여주는데 이는 생략 가능! * 인터페이스 내 모든 멤버 필드(변수)
+    public static final String aaa = "한국";
+    int bbb = 100;
+
+    // Abstract Method - 인터페이스 내 모든 메서드는 public abstract 이어야 하고, default 값으로 생략 가능!
+    public abstract void in(int price, String name);
 
     abstract void out(int price, String name);
 }
@@ -80,6 +85,10 @@ public class Java_OOP_Interface {
         System.out.println();
         f1.train(5000, "동생");
 
+        // 상수 필드 사용
+        System.out.println();
+        System.out.println(f1.aaa);
+        System.out.println(f1.bbb);
     }
 }
 
