@@ -2,7 +2,7 @@
 
 import java.util.Arrays;
 
-public class Java_Score {
+public class Java_Order {
     public static void main(String[] args) {
 
         // 배열 선언
