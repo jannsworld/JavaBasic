@@ -3,12 +3,19 @@
 public class Java_Pattern3 {
     public static void main(String[] args) {
 
-        for(int i=0; i<5; i++){
-            for(int j=0; j<10; j++){
+        // 이중 반복문
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 10; j++) {
 
-                int result = i*10 +j;
-                System.out.print(result + " ");
-                j++;
+                // 출력값
+                int result = i * 10 + j;
+
+                // 짝수만 출력
+                if (result % 2 != 0) {
+                    continue;
+                } else {
+                    System.out.print(result + " ");
+                }
             }
             System.out.println();
         }
