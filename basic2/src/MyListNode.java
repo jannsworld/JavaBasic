@@ -1,0 +1,25 @@
+
+
+public class MyListNode {
+
+    private String data; // 자료
+    public MyListNode next ; // 다음 노드 가리키는 링크
+
+    public MyListNode(){
+        data = null;
+        next = null;
+    }
+
+    public MyListNode(String data, MyListNode link){
+        this.data = data;
+        this.next = link;
+    }
+
+    public MyListNode(String data) {
+    }
+
+    public String getData(){
+        return data;
+    }
+
+}
